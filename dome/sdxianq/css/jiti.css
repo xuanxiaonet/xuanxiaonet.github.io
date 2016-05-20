@@ -1,0 +1,249 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.font {
+  font-size: 16px;
+  color: #ffffff;
+  font-family: "Microsoft Yahei", "arial";
+}
+.f12 {
+  font-size: 12px;
+  color: #ffffff;
+  font-family: "Microsoft Yahei", "arial";
+}
+.f14 {
+  font-size: 14px;
+  color: #ffffff;
+  font-family: "Microsoft Yahei", "arial";
+}
+.f16 {
+  font-size: 16px;
+  color: #ffffff;
+  font-family: "Microsoft Yahei", "arial";
+}
+.f18 {
+  font-size: 18px;
+  color: #ffffff;
+  font-family: "Microsoft Yahei", "arial";
+}
+.f20 {
+  font-size: 18px;
+  color: #ffffff;
+  font-family: "Microsoft Yahei", "arial";
+}
+.f22 {
+  font-size: 22px;
+  color: #ffffff;
+  font-family: "Microsoft Yahei", "arial";
+}
+.f24 {
+  font-size: 24px;
+  color: #ffffff;
+  font-family: "Microsoft Yahei", "arial";
+}
+.f26 {
+  font-size: 26px;
+  color: #ffffff;
+  font-family: "Microsoft Yahei", "arial";
+}
+.f28 {
+  font-size: 28px;
+  color: #ffffff;
+  font-family: "Microsoft Yahei", "arial";
+}
+.h5 {
+  width: 100%;
+  height: 5px;
+  clear: both;
+}
+.h5 {
+  width: 100%;
+  height: 5px;
+  clear: both;
+}
+.h10 {
+  width: 100%;
+  height: 10px;
+  clear: both;
+}
+.h20 {
+  width: 100%;
+  height: 20px;
+  clear: both;
+}
+.h30 {
+  width: 100%;
+  height: 30px;
+  clear: both;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+.h20 {
+  width: 100%;
+  height: 20px;
+}
+.hide {
+  display: none;
+}
+.before:before {
+  content: "";
+  display: table;
+}
+.after:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+button {
+  border: 0;
+  background: transparent;
+}
+.bod {
+  height: 1450px;
+}
+.you {
+  background: url(../img/img3/zuo_03.png) no-repeat;
+  height: 1400px;
+}
+.XZjiti {
+  width: 672px;
+  height: 400px;
+  margin: 0 auto;
+  position: relative;
+}
+.XZjiti .xzjiti {
+  display: table;
+  margin: 0 auto;
+}
+.XZjiti .xzjiti li {
+  float: left;
+  width: 84px;
+  height: 96px;
+  margin-bottom: 2px;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+}
+.XZjiti .xzjiti li .black {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.4);
+}
+.XZjiti .xzL,
+.XZjiti .xzR {
+  width: 28px;
+  height: 51px;
+  position: absolute;
+  top: 175px;
+}
+.XZjiti .xzL {
+  background: url(../img/img3/tu0_03.png) no-repeat;
+  left: -55px;
+}
+.XZjiti .xzR {
+  background: url(../img/img3/tu0_05.png) no-repeat;
+  right: -55px;
+}
+.textJT1 {
+  width: 100%;
+  height: 24px;
+  line-height: 24px;
+  font-size: 12px;
+  color: #eee;
+  padding-left: 60px;
+}
+.YXZjiti {
+  width: 680px;
+  height: 350px;
+  margin: 29px 0 0 61px;
+}
+.YXZjiti ul {
+  margin: 5px 0 0 5px;
+}
+.YXZjiti li {
+  width: 80px;
+  height: 96px;
+  float: left;
+  margin: 14px 0 0 14px;
+  position: relative;
+}
+.YXZjiti .YXZclose {
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  background: url(../img/img3/tu_10.png) no-repeat;
+}
+.jisuan {
+  width: 680px;
+  height: 170px;
+  margin: 15px 0 0 61px;
+}
+.jisuan .left {
+  width: 165px;
+  margin-left: 25px;
+  height: 100%;
+  float: left;
+}
+.jisuan .left h3 {
+  font-size: 18px;
+  color: #ffffff;
+  font-family: "Microsoft Yahei", "arial";
+}
+.jisuan .left .jsbtn {
+  width: 180px;
+  height: 88px;
+  background: url(../img/img3/btn_03.png) no-repeat;
+}
+.jisuan .right {
+  width: 300px;
+  margin-left: 25px;
+  height: 100%;
+  float: left;
+}
+.jisuan .right .b5_text {
+  width: 100%;
+  height: 26px;
+  line-height: 26px;
+}
+.jisuan .right .b5_text h5 {
+  width: 130px;
+  float: left;
+  text-align: right;
+  font-size: 12px;
+  color: #ffffff;
+  font-family: "Microsoft Yahei", "arial";
+  color: #D5DAE7;
+}
+.jisuan .right .b5_text .b5_start {
+  width: 125px;
+  float: left;
+  padding-left: 10px;
+  height: 100%;
+  line-height: 26px;
+  margin-left: 5px;
+  font-size: 12px;
+  color: #ffffff;
+  font-family: "Microsoft Yahei", "arial";
+  color: #F8CD3E;
+  text-align: left;
+}
+.jisuan .right .b5_text .b5_start div {
+  width: 15px;
+  height: 15px;
+  margin-top: 3px;
+  background: url(../img/start02_01.png) no-repeat;
+  float: left;
+}

@@ -1,0 +1,336 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.font {
+  font-size: 16px;
+  color: #ffffff;
+  font-family: "Microsoft Yahei", "arial";
+}
+.f12 {
+  font-size: 12px;
+  color: #ffffff;
+  font-family: "Microsoft Yahei", "arial";
+}
+.f14 {
+  font-size: 14px;
+  color: #ffffff;
+  font-family: "Microsoft Yahei", "arial";
+}
+.f16 {
+  font-size: 16px;
+  color: #ffffff;
+  font-family: "Microsoft Yahei", "arial";
+}
+.f18 {
+  font-size: 18px;
+  color: #ffffff;
+  font-family: "Microsoft Yahei", "arial";
+}
+.f20 {
+  font-size: 18px;
+  color: #ffffff;
+  font-family: "Microsoft Yahei", "arial";
+}
+.f22 {
+  font-size: 22px;
+  color: #ffffff;
+  font-family: "Microsoft Yahei", "arial";
+}
+.f24 {
+  font-size: 24px;
+  color: #ffffff;
+  font-family: "Microsoft Yahei", "arial";
+}
+.h5 {
+  width: 100%;
+  height: 5px;
+  clear: both;
+}
+.h10 {
+  width: 100%;
+  height: 10px;
+  clear: both;
+}
+.h20 {
+  width: 100%;
+  height: 20px;
+  clear: both;
+}
+.h30 {
+  width: 100%;
+  height: 30px;
+  clear: both;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+.hide {
+  display: none;
+}
+.before:before {
+  content: "";
+  display: table;
+}
+.after:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+button,
+input {
+  border: 0;
+  background: transparent;
+}
+li {
+  list-style: none;
+}
+i {
+  font-style: normal;
+}
+b {
+  font-weight: normal;
+}
+s {
+  text-decoration: none;
+}
+.container {
+  width: 1000px;
+  position: relative;
+  margin: 0 auto;
+}
+.main {
+  width: 100%;
+  min-height: 1080px;
+  position: relative;
+  background: url(../img/bg.jpg) no-repeat top center;
+}
+.logo {
+  width: 146px;
+  height: 80px;
+  background: url(../img/logo_02.png) no-repeat;
+  position: absolute;
+  top: 20px;
+  left: 0;
+}
+.mainCon {
+  width: 1000px;
+  margin-top: 525px;
+}
+.navTit {
+  width: 100%;
+  height: 74px;
+  background: url(../img/titBg_03.png) repeat;
+  line-height: 74px;
+}
+.navTit img {
+  margin-left: 40px;
+  margin-right: 10px;
+  vertical-align: middle;
+  margin-top: -9px;
+}
+.navTit span {
+  font-size: 24px;
+  color: #ffffff;
+  font-family: "Microsoft Yahei", "arial";
+  color: #cfd7da;
+}
+.navTit i {
+  font-size: 24px;
+  color: #ffffff;
+  font-family: "Microsoft Yahei", "arial";
+  color: #4E4E58;
+  padding: 0 10px;
+}
+.navTit s {
+  font-size: 14px;
+  color: #ffffff;
+  font-family: "Microsoft Yahei", "arial";
+  color: #db5367;
+}
+.mBody {
+  width: 100%;
+  background: #fff;
+}
+.lunbK {
+  width: 944px;
+  height: 285px;
+  margin: 30px auto ;
+  background: #6B6B6B;
+  position: relative;
+  overflow: hidden;
+}
+.lunbK .tu {
+  position: absolute;
+  top: 0;
+  left: 0px;
+  width: 10000px;
+}
+.lunbK .tu-cell {
+  float: left;
+  width: 944px;
+  height: 285px;
+}
+.lunbK .lunblist {
+  position: absolute;
+  right: 35px;
+  bottom: 23px;
+}
+.lunbK .lunblist li {
+  width: 13px;
+  height: 13px;
+  background: url(../img/tu_11.png) no-repeat;
+  float: left;
+  margin-left: 8px;
+  cursor: pointer;
+}
+.lunbK .lunblist .active {
+  background: url(../img/tu_13.png) no-repeat;
+}
+.h2Tit0 {
+  width: 950px;
+  padding-left: 50px;
+  height: 60px;
+  line-height: 60px;
+  margin-left: 25px;
+  background: url(../img/tu_18.png) no-repeat left center;
+}
+.h2Tit0 span {
+  font-size: 26px;
+  color: #db5367;
+}
+.h2Tit0 i {
+  font-size: 18px;
+  color: #ffffff;
+  font-family: "Microsoft Yahei", "arial";
+  color: #db5367;
+}
+.libaoK {
+  width: 944px;
+  height: 348px;
+  margin: 0 auto;
+}
+.libaoK .ui-menu li {
+  width: 187px;
+  height: 63px;
+  margin-left: 2px;
+  float: left;
+  background: #FBAAC1 ;
+  cursor: pointer;
+  position: relative;
+}
+.libaoK .ui-menu .zhe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: url(../img/zhe_03.png) repeat;
+}
+.libaoK .ui-menu .active .zhe {
+  opacity: 0;
+}
+.libaoK .ui-menu .ml0 {
+  margin-left: 0;
+}
+.main-list {
+  width: 100%;
+  height: 283px;
+  margin-top: 2px;
+  background: #FDD4E0;
+}
+.main-list .left {
+  width: 758px;
+  height: 100%;
+  background: #FDD4E0;
+  float: left;
+}
+.main-list .left li {
+  float: left;
+  text-align: center;
+  width: 83px;
+  height: 110px;
+  margin: 20px  0 0 22px;
+}
+.main-list .left .tu {
+  width: 83px;
+  height: 83px;
+  background: #fff;
+}
+.main-list .left .tu img {
+  width: 100%;
+  height: 100%;
+}
+.main-list .left .h3Tit {
+  font-size: 12px;
+  color: #ffffff;
+  font-family: "Microsoft Yahei", "arial";
+  color: #000;
+  height: 24px;
+  width: 150%;
+  margin-left: -25%;
+  line-height: 24px;
+}
+.main-list .right {
+  width: 186px;
+  height: 100%;
+  background: #F9C1D1;
+  display: table;
+  float: right;
+}
+.main-list .rightCon {
+  display: table-cell;
+  vertical-align: middle;
+}
+.main-list .rightCon button {
+  width: 160px;
+  height: 59px;
+  background: url(../img/tu_38.png) no-repeat;
+  font-size: 18px;
+  color: #ffffff;
+  font-family: "Microsoft Yahei", "arial";
+  color: #F1F1FE;
+  font-weight: bold;
+  display: block;
+  margin: 0 auto;
+}
+.main-list .rightCon .dh {
+  margin-top: 18px;
+}
+.ul1 {
+  width: 944px;
+  margin: 0 auto;
+}
+.ul1 li {
+  width: 153px;
+  height: 32px;
+  border-radius: 16px;
+  background: #FFD7DD;
+  float: left;
+  margin-left: 5px;
+  margin-top: 16px;
+  font-size: 16px;
+  color: #ffffff;
+  font-family: "Microsoft Yahei", "arial";
+  color: #3c3c3c;
+  position: relative;
+  text-align: center;
+  line-height: 32px;
+  font-weight: 600;
+}
+.ul1 li a {
+  position: absolute;
+  top: 0 ;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.ul1 .ml0 {
+  margin-left: 0;
+}
